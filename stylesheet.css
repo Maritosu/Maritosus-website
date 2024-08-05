@@ -1,0 +1,88 @@
+/*style the body*/
+
+body {
+    background: linear-gradient(rgb(53, 53, 53), darkgray);
+}
+
+/* style the text and pfp*/
+
+h1, h2 {
+    color: white;
+}
+
+.pfp {
+    border-radius: 50px;
+}
+
+/*style the buttons*/
+
+button {
+    font-size: 20px;
+    color: black;
+    background: linear-gradient(white,wheat);
+    border-radius: 10px;
+    transition: 0.2s;
+    border: none;
+    margin: 3px;
+    padding: 10px;
+}
+
+/*make em' have some animation when you hover on them*/
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(1);
+    background: linear-gradient(wheat,white);
+}
+
+/*div styling*/
+
+.container-pfp {
+    background-color: grey;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.container-pfp-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.container-info {
+    background-color: grey;
+    border-radius: 10px;
+    margin: -80px 0px 0px 400px;
+}
+
+.container-info-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin: 100px;
+}
+
+.container-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    position: fixed;
+    margin: 150px 0px 0px 50px;
+    top: 0px;
+}
+
+.container-socials-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
