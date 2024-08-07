@@ -1,50 +1,23 @@
 /*style the body*/
-
 body {
-    background: linear-gradient(rgb(53, 53, 53), darkgray);
+    background-color: #181616;
 }
-
 /* style the text and pfp*/
-
-h1, h2 {
+h1, h2, ul {
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+
 }
 
 .pfp {
     border-radius: 50px;
 }
-
-/*style the buttons*/
-
-button {
-    font-size: 20px;
-    color: black;
-    background: linear-gradient(white,wheat);
-    border-radius: 10px;
-    transition: 0.2s;
-    border: none;
-    margin: 3px;
-    padding: 10px;
-}
-
-/*make em' have some animation when you hover on them*/
-
-button:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-button:active{
-    transform: scale(1);
-    background: linear-gradient(wheat,white);
-}
-
 /*div styling*/
-
 .container-pfp {
-    background-color: grey;
     border-radius: 10px;
-    position: fixed;
+    border: 2px white solid;
+    margin: 30px 0px 30px;
 }
 
 .container-pfp-inside {
@@ -55,34 +28,37 @@ button:active{
 }
 
 .container-info {
-    background-color: grey;
     border-radius: 10px;
-    margin: -80px 0px 0px 400px;
+    border: 2px white solid;
 }
 
 .container-info-inside {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    align-items: right;
-    margin: 100px;
-}
-
-.container-socials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: grey;
-    border-radius: 10px;
-    position: fixed;
-    margin: 150px 0px 0px 50px;
-    top: 0px;
+}
+/*navbar styling*/
+ul {
+    list-style: none;
+    overflow: hidden;
+    margin: -10px;
+    background-color: gray;
+    border: 2px black solid;
 }
 
-.container-socials-inside {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14 16px;
+    transition: 0.2s;
+}
+
+li a:hover{
+    background-color: black;
 }
