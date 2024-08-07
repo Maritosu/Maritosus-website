@@ -5,8 +5,7 @@ body {
 /* style the text and pfp*/
 h1, h2, ul {
     color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 27px;
+    font-family: "Roboto", sans-serif
 
 }
 
@@ -62,3 +61,5 @@ li a{
 li a:hover{
     background-color: black;
 }
+
+/*finally responsive stuff*/
