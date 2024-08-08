@@ -3,10 +3,9 @@ body {
     background-color: #363333;
 }
 /* style the text and pfp*/
-h1, h2, ul {
+h1, h2, ul, p {
     color: white;
     font-family: "Roboto", sans-serif
-
 }
 
 .pfp {
@@ -14,23 +13,21 @@ h1, h2, ul {
 }
 /*div styling*/
 .container-pfp {
-    margin: 30px 0px 30px;
+    margin: 30px -10px 500px;
     background-color: rgb(133, 122, 122);
-    border-radius: 7px;
-    box-shadow: 2px 2px 10px black;
 }
 
 .container-pfp-inside {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .container-info {
-    box-shadow: 2px 2px 10px black;
+    margin: -10px;
     background-color: rgb(133, 122, 122);
-    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
 .container-info-inside {
@@ -44,7 +41,7 @@ ul {
     list-style: none;
     overflow: hidden;
     margin: -10px;
-    background-color: rgb(129, 116, 116);
+    background-color: rgb(133, 122, 122);
     box-shadow: 1px 1px 5px black;
 }
 
@@ -56,12 +53,15 @@ li a{
     display: block;
     text-decoration: none;
     color: white;
-    padding: 14 16px;
-    transition: 0.1s;
+    padding: 14px 16px;
+    transition: 0.2s;
 }
 
 li a:hover{
     background-color:black;
+    transform: scale(1.1);
 }
 
-/*finally responsive stuff*/
+hr{
+    border: 1px white solid;
+}
