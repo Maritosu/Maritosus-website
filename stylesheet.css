@@ -1,0 +1,35 @@
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(360deg, black, red);
+}
+
+div {
+    margin: -10px;
+    margin-top: 50px;
+    border: 1px grey solid;
+    background-color: rgba(133, 122, 122, 0.2);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 0px;
+    margin: -10px;
+    line-height: 30px;
+}
+
+a{text-decoration: none;color: white;}
+
+a:hover{color: darkgray;}
+
+@media only screen and (max-width: 192px){
+    img{width: 120px;}
